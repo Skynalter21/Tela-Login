@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@../estilos/tela.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logica.TelaController">
+   <children>
+      <FlowPane layoutX="141.0" layoutY="4.0" prefHeight="200.0" prefWidth="318.0" styleClass="flowpane" />
+      <Pane layoutX="101.0" layoutY="204.0" prefHeight="200.0" prefWidth="398.0" styleClass="login">
+         <children>
+            <TextField fx:id="txt_email" layoutX="124.0" layoutY="47.0" />
+            <Label layoutX="184.0" layoutY="24.0" text="Email" />
+            <Label layoutX="182.0" layoutY="81.0" text="Senha" />
+            <PasswordField fx:id="txt_senha" layoutX="125.0" layoutY="107.0" />
+            <Button layoutX="14.0" layoutY="152.0" mnemonicParsing="false" text="Cadastrar" />
+            <Button layoutX="175.0" layoutY="152.0" mnemonicParsing="false" onAction="#EntrarLogin" text="Entrar" />
+            <Button layoutX="322.0" layoutY="152.0" mnemonicParsing="false" text="Cancelar" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
